@@ -7,19 +7,21 @@ import { PagesModule } from '../app/pages/pages.module';
 import { AppComponent } from './app.component';
 import { E404Component } from './pages/e404/e404.component';
 import { AuthModule } from './auth/auth.module';
-
+import { ChartsModule } from 'ng2-charts';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     E404Component,
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     PagesModule,
-    AuthModule
+    AuthModule,
+    ChartsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
