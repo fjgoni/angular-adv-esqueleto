@@ -11,13 +11,15 @@ import { PagesComponent } from '../pages/pages.component';
 import { ProgressComponent } from '../pages/progress/progress.component';
 import { Grafica1Component } from '../pages/grafica1/grafica1.component';
 import { DashboardComponent } from '../pages/dashboard/dashboard.component';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 @NgModule({ 
   declarations: [  
     PagesComponent,
     ProgressComponent,
     Grafica1Component,
-    DashboardComponent
+    DashboardComponent,
+    AccountSettingsComponent
   ],
   imports: [
     CommonModule,
