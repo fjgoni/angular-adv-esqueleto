@@ -13,8 +13,7 @@ export class SidebarComponent implements OnInit {
   constructor( private _sideBarService : SidebarService) {
 
     this.menuItems = _sideBarService.menu;
-    console.log(this.menuItems);
-    console.log(this.menuItems[0].submenu);
+   
 
    }
 
